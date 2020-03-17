@@ -1,0 +1,27 @@
+{
+  "name": "@sukbta/ssr-react-loadable",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8427003/ssr-react-loadable.git"
+  },
+  "keywords": [
+    "ssr",
+    "react-loadable"
+  ],
+  "author": "coco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8427003/ssr-react-loadable/issues"
+  },
+  "homepage": "https://github.com/8427003/ssr-react-loadable#readme",
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-router": "^5.1.2"
+  }
+}
