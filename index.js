@@ -88,7 +88,7 @@ function Loadable(loaderConfig) {
                     Component,
                     initProps,
                     props: this.props,
-                }) : <Component initProps={initProps} {...this.props} />
+                }) : React.createElement(Component, { initProps, ...this.props })
             }
             return null;
         }
@@ -175,3 +175,4 @@ Loadable.loadReady = function (url, initProps) {
 //}
 
 export default Loadable;
+
